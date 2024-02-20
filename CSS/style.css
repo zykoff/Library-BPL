@@ -1,0 +1,297 @@
+input,
+textarea,
+select,
+button {
+    font: inherit;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+button {
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* HEADHER START */
+.header {
+    background-color: black;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__container {
+    background-color: rgba(12, 12, 14, 1);
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.header__title {
+    font-family: Forum, 'Source Sans Pro';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+}
+
+.header__nav {
+    margin-left: auto;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+/* WELCOME START*/
+.welcome {
+    background: black;
+    height: 600px;
+}
+
+.welcome__container {
+    position: relative;
+}
+
+.welcome__overlay {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(180deg, #0c0c0e 0%, #0c0c0e 0.01%, rgba(18, 18, 21, 0.1) 100%);
+}
+
+.welcome__title-wrapper {
+    background-color: black;
+    display: inline-block;
+    width: 600px;
+    height: 220px;
+    margin-top: 220px;
+    padding: 35px;
+}
+
+.welcome__title {
+    font-family: 'Forum';
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0.07em;
+    color: #fff;
+}
+
+/* WELCOME END */
+
+/* ABOUT START */
+.section__title {
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #0c0c0e;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section__line {
+    content: '';
+    background: black;
+    height: 1px;
+    width: 50px;
+    margin: auto;
+}
+
+.about__text {
+    padding: 40px 0px 0px 0px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    text-align: center;
+    color: #000;
+}
+
+.about__slider-list {
+    display: flex;
+    gap: 25px;
+}
+
+.about__slider-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+
+.about__slider-btn {
+    border-radius: 50px;
+    width: 16px;
+    height: 16px;
+    background: #0c0c0e;
+    border-style: none;
+    cursor: pointer;
+}
+
+.current {
+    background: #bb945f;
+}
+
+/* ABOUT END */
+
+/* FAVORITES START */
+.favorites__text {
+    padding-top: 37px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+
+.favorites__items {
+    padding-top: 40px;
+    display: flex;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.favorites__books {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.books {
+    width: 550px;
+    height: 555px;
+    border: 1px solid black;
+    padding: 0 20px 0 20px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.books__title {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.books__line {
+    border: 1px solid #bb945f;
+    width: 60px;
+    height: 0px;
+}
+
+.book__title {
+    padding-top: 15px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 267%;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.book__author {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 267%;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.book__text {
+    padding-top: 20px;
+    width: 355px;
+    height: 320px;
+    margin-bottom: 35px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.books__buy {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #0c0c0e;
+    border: 1px solid #0c0c0e;
+    border-radius: 2px;
+    width: 75px;
+    height: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.book__img {
+    position: absolute;
+    bottom: -1px;
+    right: -40px;
+}

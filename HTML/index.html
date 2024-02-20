@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/Library-BPL/icons/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/Library-BPL/icons/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/Library-BPL/icons/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="/Library-BPL/CSS/normalize.css" />
+    <link rel="stylesheet" href="/Library-BPL/CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Forum&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <div class="header__logo">
+          <a href="#">
+            <h1 class="header__title">Brooklyn Public Library</h1>
+          </a>
+        </div>
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Favorites</a></li>
+            <li><a href="#">Coffe shop</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Library Card</a></li>
+          </ul>
+        </nav>
+        <div class="header__profile">
+          <a href="#"><img src="/Library-BPL/icons/icon_profile.svg" alt="" /></a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="welcome">
+        <div class="welcome__container container">
+          <div class="welcome__overlay">
+            <div class="welcome__title-wrapper">
+              <h2 class="welcome__title">
+                Welcome<br />to the Brooklyn <br />
+                Library
+              </h2>
+            </div>
+          </div>
+          <img src="/Library-BPL/image/Welcome.png" alt="#" />
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="about__container container">
+          <h2 class="about__title section__title">About</h2>
+          <p class="about__line section__line"></p>
+          <p class="about__text">
+            The Brooklyn Library is a free workspace, a large number of books
+            and a cozy coffee shop inside
+          </p>
+          <div class="about__slider">
+            <ul class="about__slider-list">
+              <li class="about__slider-item">
+                <img src="/Library-BPL/image/image 1.png" alt="" />
+              </li>
+              <li class="about__slider-item">
+                <img src="/Library-BPL/image/image 2.png" alt="" />
+              </li>
+              <li class="about__slider-item">
+                <img src="/Library-BPL/image/image 3.png" alt="" />
+              </li>
+            </ul>
+            <div class="about__slider-controls">
+              <button class="about__slider-btn current"></button>
+              <button class="about__slider-btn"></button>
+              <button class="about__slider-btn"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="favorites">
+        <div class="favorites__container container">
+          <h2 class="favorites__title section__title">Favorites</h2>
+          <p class="favorites__line section__line"></p>
+          <div class="container__items">
+            <h3 class="favorites__text">Pick favorites of season</h3>
+
+            <div class="favorites__tabs">
+              <ul class="favorites__items">
+                <input type="radio" />
+                <li class="favorites__item favorites__current">Winter</li>
+                <input type="radio" />
+                <li class="favorites__item">Spring</li>
+                <input type="radio" />
+                <li class="favorites__item">Summer</li>
+                <input type="radio" />
+                <li class="favorites__item">Autumn</li>
+              </ul>
+            </div>
+
+            <div class="favorites__books">
+              <div class="tabs__content">
+                <ul class="books">
+                  <li class="list__books">
+                    <h3 class="books__title">Staff Picks</h3>
+                  </li>
+                  <p class="books__line"></p>
+                  <h4 class="book__title">The Book Eaters</h4>
+                  <h4 class="book__author">By Sunyi Dean</h4>
+                  <p class="book__text">
+                    An unusual sci-fi story about a book eater woman who tries
+                    desperately to save her dangerous mind-eater son from
+                    tradition and certain death. Complete with dysfunctional
+                    family values, light Sapphic romance, and a strong, complex
+                    protagonist. Not for the faint of heart.
+                  </p>
+                  <button class="books__buy">BUY</button>
+                  <img
+                    class="book__img"
+                    src="/Library-BPL/image/book.png"
+                    alt="#"
+                  />
+                </ul>
+              </div>
+              <div class="tabs__content">
+                <ul class="books">
+                  <li class="list__books">
+                    <h3 class="books__title">Staff Picks</h3>
+                  </li>
+                  <p class="books__line"></p>
+                  <h4 class="book__title">Cackle</h4>
+                  <h4 class="book__author">By Rachel Harrison</h4>
+                  <p class="book__text">
+                    Are your Halloween movies of choice The Witches of Eastwick
+                    and Practical Magic? Look no further than here - where a
+                    woman recovering from a breakup moves to a quaint town in
+                    upstate New York and befriends a beautiful witch.
+                  </p>
+                  <button class="books__buy">BUY</button>
+                  <img
+                    class="book__img"
+                    src="/Library-BPL/image/book (1).png"
+                    alt="#"
+                  />
+                </ul>
+              </div>
+              <div class="tabs__content">
+                <ul class="books">
+                  <li class="list__books">
+                    <h3 class="books__title">Staff Picks</h3>
+                  </li>
+                  <p class="books__line"></p>
+                  <h4 class="book__title">Dante: Poet of the Secular World</h4>
+                  <h4 class="book__author">By Erich Auerbach</h4>
+                  <p class="book__text">
+                    Auerbach's engaging book places the 'Comedy' within the
+                    tradition of epic, tragedy, and philosophy in general,
+                    arguing for Dante's uniqueness as one who raised the
+                    individual and his drama of soul into something of divine
+                    significance—an inspired introduction to Dante's main
+                    themes.
+                  </p>
+                  <button class="books__buy">BUY</button>
+                  <img
+                    class="book__img"
+                    src="/Library-BPL/image/book (2).png"
+                    alt="#"
+                  />
+                </ul>
+              </div>
+              <div class="tabs__content">
+                <ul class="books">
+                  <li class="list__books">
+                    <h3 class="books__title">Staff Picks</h3>
+                  </li>
+                  <p class="books__line"></p>
+                  <h4 class="book__title">The Last Queen</h4>
+                  <h4 class="book__author">By Clive Irving</h4>
+                  <p class="book__text">
+                    A timely and revelatory new biography of Queen Elizabeth
+                    (and her family) exploring how the Windsors have evolved and
+                    thrived as the modern world has changed around them.
+                  </p>
+                  <button class="books__buy">BUY</button>
+                  <img
+                    class="book__img"
+                    src="/Library-BPL/image/book (3).png"
+                    alt="#"
+                  />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <script src="#"></script>
+  </body>
+</html>
