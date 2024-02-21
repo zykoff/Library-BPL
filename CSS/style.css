@@ -223,9 +223,11 @@ button {
 }
 
 .favorites__books {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 7px;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .books {
@@ -235,6 +237,10 @@ button {
     padding: 0 20px 0 20px;
     margin-top: 40px;
     position: relative;
+    padding: 15px 0 15px 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .books__title {
@@ -307,6 +313,7 @@ button {
     bottom: -1px;
     right: -40px;
 }
+
 /*FAVORITES END*/
 
 /*COFFEE START*/
