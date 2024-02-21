@@ -46,6 +46,7 @@ button {
 .container {
     width: 1440px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* HEADHER START */
@@ -65,6 +66,7 @@ button {
     align-items: center;
     justify-content: space-between;
     height: 90px;
+    padding: 0 20px;
 }
 
 .header__title {
@@ -83,6 +85,7 @@ button {
     font-weight: 400;
     line-height: 167%;
     letter-spacing: 0.02em;
+    padding-right: 35px;
 }
 
 .header__nav {
@@ -132,6 +135,10 @@ button {
 /* WELCOME END */
 
 /* ABOUT START */
+.about__container {
+    padding: 0 20px;
+}
+
 .section__title {
     font-family: Forum;
     font-weight: 400;
@@ -154,7 +161,7 @@ button {
 }
 
 .about__text {
-    padding: 40px 0px 0px 0px;
+    padding: 40px 0px 20px 0px;
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
@@ -166,6 +173,7 @@ button {
 .about__slider-list {
     display: flex;
     gap: 25px;
+    padding-bottom: 35px;
 }
 
 .about__slider-controls {
@@ -191,6 +199,10 @@ button {
 /* ABOUT END */
 
 /* FAVORITES START */
+.favorites__container {
+    padding: 0 20px;
+}
+
 .favorites__text {
     padding-top: 37px;
     font-family: Inter;
@@ -294,4 +306,20 @@ button {
     position: absolute;
     bottom: -1px;
     right: -40px;
+}
+/*FAVORITES END*/
+
+/*COFFEE START*/
+.coffee__container {
+    padding: 0 20px;
+}
+
+.coffee__text {
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
 }
