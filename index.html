@@ -1,281 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Library</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__container">
-        <div class="test">
-          <div class="header__logo">
-            <a href="#">
-              <h1 class="header__title">Brooklyn Public Library</h1>
-            </a>
-          </div>
-          <nav class="header__nav">
-            <ul class="nav__list">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Favorites</a></li>
-              <li><a href="#">Coffe shop</a></li>
-              <li><a href="#">Contacts</a></li>
-              <li><a href="#">Library Card</a></li>
-            </ul>
-          </nav>
-          <div class="header__profile">
-            <a href="#"
-              ><img src="/Library-BPL/assets/icons/icon_profile.svg" alt="#"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </header>
+    <link rel="stylesheet" href="./css/normalize.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
 
-    <main class="main">
-      <section class="welcome">
+<header class="header">
+    <div class="header__container">
+        <div class="header__background">
+            <div class="header__logo">
+                <a href="#">
+                    <h1 class="header__title">Brooklyn Public Library</h1>
+                </a>
+            </div>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Favorites</a></li>
+                    <li><a href="#">Coffee shop</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Library Card</a></li>
+                </ul>
+            </nav>
+            <div class="header__profile">
+                <a href="#"
+                ><img src="/Library-BPL/assets/icons/icon_profile.svg" alt="#"
+                /></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <section class="welcome">
         <div class="welcome__container">
-          <div class="welcome__overlay">
-            <div class="welcome__title-wrapper">
-              <h2 class="welcome__title">
-                Welcome<br />to the Brooklyn <br />
-                Library
-              </h2>
+            <div class="welcome__overlay">
+                <div class="welcome__title-wrapper">
+                    <h2 class="welcome__title">
+                        Welcome<br/>to the Brooklyn <br/>
+                        Library
+                    </h2>
+                </div>
             </div>
-          </div>
-          <div class="welcome__banner"></div>
+            <div class="welcome__background"></div>
         </div>
-      </section>
+    </section>
 
-      <section class="about">
+    <section class="about">
         <div class="about__container container">
-          <h2 class="about__title section__title">About</h2>
-          <p class="about__text">
-            The Brooklyn Library is a free workspace, a large number of books
-            and a cozy coffee shop inside
-          </p>
-          <div class="about__slider">
-            <ul class="about__slider-list">
-              <li class="about__slider-item">
-                <img src=./assets/image/image1.png alt="" />
-              </li>
-              <li class="about__slider-item">
-                <img src="./assets/image/image2.png" alt="" />
-              </li>
-              <li class="about__slider-item">
-                <img src="./assets/image/image3.png" alt="" />
-              </li>
-            </ul>
-            <div class="about__slider-controls">
-              <button class="about__slider-btn current"></button>
-              <button class="about__slider-btn"></button>
-              <button class="about__slider-btn"></button>
+            <h2 class="about__title about__title--sections">About</h2>
+            <p class="about__text about__text--sections">
+                The Brooklyn Library is a free workspace, a large number of books
+                and a cozy coffee shop inside
+            </p>
+            <div class="about__slider">
+                <ul class="about__slider-list">
+                    <li class="about__slider-item">
+                        <img src=./assets/image/image1.png alt=""/>
+                    </li>
+                    <li class="about__slider-item">
+                        <img src="./assets/image/image2.png" alt=""/>
+                    </li>
+                    <li class="about__slider-item">
+                        <img src="./assets/image/image3.png" alt=""/>
+                    </li>
+                </ul>
+                <div class="about__slider--controls">
+                    <button class="about__slider--btn about__slider--current"></button>
+                    <button class="about__slider--btn"></button>
+                    <button class="about__slider--btn"></button>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section class="favorites">
+    <section class="favorites">
         <div class="favorites__container container">
-          <h2 class="favorites__title section__title">Favorites</h2>
-          <div class="container__items">
-            <h3 class="favorites__text">Pick favorites of season</h3>
-            <div class="favorites__tabs">
-              <ul class="tabs__header">
-                <li class="tabs__item">
-                  <input type="radio" id="winter">
-                  <label class="tabs__label" for="winter">Winter</label>
-                </li>
-                <li class="tabs__item">
-                  <input type="radio" id="spring">
-                  <label class="tabs__label" for="spring">Spring</label>
-                </li>
-                <li class="tabs__item">
-                  <input type="radio" id="summer">
-                  <label class="tabs__label" for="summer">Summer</label>
-                </li>
-                <li class="tabs__item">
-                  <input type="radio" id="autumn">
-                  <label class="tabs__label" for="autumn">Autumn</label>
-                </li>
-              </ul>
-            </div>
+            <h2 class="favorites__title about__title--sections">Favorites</h2>
+            <div class="favorites__books--block">
+                <h3 class="favorites__text">Pick favorites of season</h3>
+                <div class="favorites__checkbox">
+                    <ul class="favorites__list">
+                        <li class="favorites__item">
+                            <input type="radio" id="winter">
+                            <label class="tabs__label" for="winter">Winter</label>
+                        </li>
+                        <li class="favorites__item">
+                            <input type="radio" id="spring">
+                            <label class="favorites__label" for="spring">Spring</label>
+                        </li>
+                        <li class="favorites__item">
+                            <input type="radio" id="summer">
+                            <label class="favorites__label" for="summer">Summer</label>
+                        </li>
+                        <li class="favorites__item">
+                            <input type="radio" id="autumn">
+                            <label class="favorites__label" for="autumn">Autumn</label>
+                        </li>
+                    </ul>
+                </div>
 
-            <div class="favorites__books">
-              <div class="tabs__content">
-                <ul class="books">
-                  <li class="list__books">
-                    <h3 class="books__title">Staff Picks</h3>
-                  </li>
-                  <h4 class="book__title">The Book Eaters</h4>
-                  <h4 class="book__author">By Sunyi Dean</h4>
-                  <p class="book__text">
-                    An unusual sci-fi story about a book eater woman who tries
-                    desperately to save her dangerous mind-eater son from
-                    tradition and certain death. Complete with dysfunctional
-                    family values, light Sapphic romance, and a strong, complex
-                    protagonist. Not for the faint of heart.
-                  </p>
-                  <button class="books__buy">BUY</button>
-                  <img
-                    class="book__img"
-                    src="./assets/image/book.png"
-                    alt="#"
-                  />
-                </ul>
-              </div>
-              <div class="tabs__content">
-                <ul class="books">
-                  <li class="list__books">
-                    <h3 class="books__title">Staff Picks</h3>
-                  </li>
-                  <p class="books__line"></p>
-                  <h4 class="book__title">Cackle</h4>
-                  <h4 class="book__author">By Rachel Harrison</h4>
-                  <p class="book__text">
-                    Are your Halloween movies of choice The Witches of Eastwick
-                    and Practical Magic? Look no further than here - where a
-                    woman recovering from a breakup moves to a quaint town in
-                    upstate New York and befriends a beautiful witch.
-                  </p>
-                  <button class="books__buy">BUY</button>
-                  <img
-                    class="book__img"
-                    src="./assets/image/book1.png"
-                    alt="#"
-                  />
-                </ul>
-              </div>
-              <div class="tabs__content">
-                <ul class="books">
-                  <li class="list__books">
-                    <h3 class="books__title">Staff Picks</h3>
-                  </li>
-                  <p class="books__line"></p>
-                  <h4 class="book__title">Dante: Poet of the Secular World</h4>
-                  <h4 class="book__author">By Erich Auerbach</h4>
-                  <p class="book__text">
-                    Auerbach's engaging book places the 'Comedy' within the
-                    tradition of epic, tragedy, and philosophy in general,
-                    arguing for Dante's uniqueness as one who raised the
-                    individual and his drama of soul into something of divine
-                    significance—an inspired introduction to Dante's main
-                    themes.
-                  </p>
-                  <button class="books__buy">BUY</button>
-                  <img
-                    class="book__img"
-                    src="./assets/image/book2.png"
-                    alt="#"
-                  />
-                </ul>
-              </div>
-              <div class="tabs__content">
-                <ul class="books">
-                  <li class="list__books">
-                    <h3 class="books__title">Staff Picks</h3>
-                  </li>
-                  <p class="books__line"></p>
-                  <h4 class="book__title">The Last Queen</h4>
-                  <h4 class="book__author">By Clive Irving</h4>
-                  <p class="book__text">
-                    A timely and revelatory new biography of Queen Elizabeth
-                    (and her family) exploring how the Windsors have evolved and
-                    thrived as the modern world has changed around them.
-                  </p>
-                  <button class="books__buy">BUY</button>
-                  <img
-                    class="book__img"
-                    src="./assets/image/book3.png"
-                    alt="#"
-                  />
-                </ul>
-              </div>
+                <div class="favorites__books">
+                    <div class="books">
+                        <h3 class="books__title">Staff Picks</h3>
+                        <h4 class="books__subtitle">The Book Eaters</h4>
+                        <h4 class="books__author">By Sunyi Dean</h4>
+                        <p class="books__description">
+                            An unusual sci-fi story about a book eater woman who tries
+                            desperately to save her dangerous mind-eater son from
+                            tradition and certain death. Complete with dysfunctional
+                            family values, light Sapphic romance, and a strong, complex
+                            protagonist. Not for the faint of heart.
+                        </p>
+                        <button class="books__buy">Buy</button>
+                        <img
+                                class="books__img"
+                                src="./assets/image/book.png"
+                                alt="#"
+                        />
+                    </div>
+                    <div class="books">
+                        <h3 class="books__title">Staff Picks</h3>
+                        <h4 class="books__subtitle">Cackle</h4>
+                        <h4 class="books__author">By Rachel Harrison</h4>
+                        <p class="books__description">
+                            Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no
+                            further than here - where a woman recovering from a breakup moves to a quaint town in
+                            upstate New York and befriends a beautiful witch.
+                        </p>
+                        <button class="books__buy">Buy</button>
+                        <img
+                                class="books__img"
+                                src="./assets/image/book1.png"
+                                alt="#"
+                        />
+                    </div>
+                    <div class="books">
+                        <h3 class="books__title">Staff Picks</h3>
+                        <h4 class="books__subtitle">Dante: Poet of the Secular World</h4>
+                        <h4 class="books__author">By Erich Auerbach</h4>
+                        <p class="books__description">
+                            Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and
+                            philosophy in general, arguing for Dante's uniqueness as one who raised the individual and
+                            his drama of soul into something of divine significance—an inspired introduction to Dante's
+                            main themes.
+                        </p>
+                        <button class="books__buy">Buy</button>
+                        <img
+                                class="books__img"
+                                src="./assets/image/book2.png"
+                                alt="#"
+                        />
+                    </div>
+                    <div class="books">
+                        <h3 class="books__title">Staff Picks</h3>
+                        <h4 class="books__subtitle">The Last Queen</h4>
+                        <h4 class="books__author">By Clive Irving</h4>
+                        <p class="books__description">
+                            A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the
+                            Windsors have evolved and thrived as the modern world has changed around them.
+                        </p>
+                        <button class="books__buy">Buy</button>
+                        <img
+                                class="books__img"
+                                src="./assets/image/book3.png"
+                                alt="#"
+                        />
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section class="coffee">
+    <section class="coffee">
+        <h2 class="coffee__title about__title--sections">Coffee Shop</h2>
         <div class="coffee__container container">
-          <h2 class="coffee__title section__title">Coffee Shop</h2>
-          <p class="coffe__line section__line"></p>
-          <p class="coffee__text">
-            In our library, we have of cozy coffee shop, welcoming in customers
-            with frothy cappuccinos and friendly conversation. you can get a
-            favorite book and read in coffee shop. Our barista to cook you best
-            coffee, and also you can try desserts from bakery.
-          </p>
-
-          <div class="coffee__menu">
-            <table>
-              <caption class="menu__title">Coffee & Tea</caption>
-              <thead>
-              <tr class="menu__category">
-                <td class="menu__item">Cold Brew Coffee</td>
-                <td class="menu__line">$3</td>
-              </tr>
-              <tr class="menu__category">
-                <td class="menu__item">French Press Pot</td>
-                <td class="menu__line">$5</td>
-              </tr>
-              <tr class="menu__category">
-                <td class="menu__item">Espresso</td>
-                <td class="menu__line">$2</td>
-              </tr>
-              <tr class="menu__category">
-                <td class="menu__item">Cappuccino</td>
-                <td class="menu__line">$4</td>
-              </tr>
-              <tr class="menu__category">
-                <td class="menu__item">Hot tea</td>
-                <td class="menu__line">$2</td>
-              </tr>
-              <tr class="menu__category">
-                <td class="menu__item">Cold tea</td>
-                <td class="menu__line">$2</td>
-              </tr>
-              </thead>
-            </table>
-
-            <table>
-              <caption class="menu__right">Desserts & Cakes</caption>
-              <thead>
-              <tr class="menu__category-right">
-                <td class="menu__item">Forest Gateau</td>
-                <td class="menu__line">$16</td>
-              </tr>
-              <tr class="menu__category-right">
-                <td class="menu__item">Blue Moon</td>
-                <td class="menu__line">$16</td>
-              </tr>
-              <tr class="menu__category-right">
-                <td class="menu__item">Truffle Cake</td>
-                <td class="menu__line">$15</td>
-              </tr>
-              <tr class="menu__category-right">
-                <td class="menu__item">Chocolate Cake</td>
-                <td class="menu__line">$18</td>
-              </tr>
-              <tr class="menu__category-right">
-                <td class="menu__item">Poet's Dream Cake</td>
-                <td class="menu__line">$16</td>
-              </tr>
-              <tr class="menu__category-right">
-                <td class="menu__item">Pineapple Cake</td>
-                <td class="menu__line">$14</td>
-              </tr>
-              </thead>
-            </table>
-          </div>
+            <p class="coffee__subtitle about__text--sections">In our library, we have of cozy coffee shop, welcoming in
+                customers
+                with frothy cappuccinos and friendly conversation. you can get a
+                favorite book and read in coffee shop. Our barista to cook you best
+                coffee, and also you can try desserts from bakery</p>
+            <div class="coffee__menu">
+                <div class="menu__map menu__left">
+                    <h4 class="menu__subtitle">Coffee & Tea</h4>
+                    <div class="menu__list">
+                        <p class="menu__item">Cold Brew Coffee</p>
+                        <p class="menu__price">3$</p>
+                    </div>
+                    <div class="menu__list">
+                        <p class="menu__item">Cold Brew Coffee</p>
+                        <p class="menu__price">3$</p>
+                    </div>
+                    <div class="menu__list">
+                        <p class="menu__item">Cold Brew Coffee</p>
+                        <p class="menu__price">3$</p>
+                    </div>
+                    <div class="menu__list">
+                        <p class="menu__item">Cold Brew Coffee</p>
+                        <p class="menu__price">3$</p>
+                    </div>
+                    <div class="menu__list">
+                        <p class="menu__item">Cold Brew Coffee</p>
+                        <p class="menu__price">3$</p>
+                    </div>
+                    <div class="menu__list">
+                        <p class="menu__item">Cold Brew Coffee</p>
+                        <p class="menu__price">3$</p>
+                    </div>
+                </div>
+                <div class="menu__map menu__right">
+                    <h4 class="menu__subtitle">Coffee & Tea</h4>
+                    <div class="menu__list">
+                        <p class="menu__item">Cold Brew Coffee</p>
+                        <p class="menu__price">3$</p>
+                    </div>
+                    <div class="menu__list">
+                        <p class="menu__item">Cold Brew Coffee</p>
+                        <p class="menu__price">3$</p>
+                    </div>
+                    <div class="menu__list">
+                        <p class="menu__item">Cold Brew Coffee</p>
+                        <p class="menu__price">3$</p>
+                    </div>
+                    <div class="menu__list">
+                        <p class="menu__item">Cold Brew Coffee</p>
+                        <p class="menu__price">3$</p>
+                    </div>
+                    <div class="menu__list">
+                        <p class="menu__item">Cold Brew Coffee</p>
+                        <p class="menu__price">3$</p>
+                    </div>
+                    <div class="menu__list">
+                        <p class="menu__item">Cold Brew Coffee</p>
+                        <p class="menu__price">3$</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
-    </main>
+    </section>
+</main>
 
-    <footer class="footer"></footer>
+<footer class="footer"></footer>
 
-    <script src="#"></script>
-  </body>
+<script src="#"></script>
+</body>
 </html>
