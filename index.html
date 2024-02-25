@@ -4,38 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Library</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/Library-BPL/icons/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/Library-BPL/icons/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/Library-BPL/icons/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="stylesheet" href="/Library-BPL/CSS/normalize.css" />
-    <link rel="stylesheet" href="/Library-BPL/CSS/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Forum&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -57,7 +27,7 @@
           </nav>
           <div class="header__profile">
             <a href="#"
-              ><img src="/Library-BPL/icons/icon_profile.svg" alt="#"
+              ><img src="/Library-BPL/assets/icons/icon_profile.svg" alt="#"
             /></a>
           </div>
         </div>
@@ -82,7 +52,6 @@
       <section class="about">
         <div class="about__container container">
           <h2 class="about__title section__title">About</h2>
-          <p class="about__line section__line"></p>
           <p class="about__text">
             The Brooklyn Library is a free workspace, a large number of books
             and a cozy coffee shop inside
@@ -90,13 +59,13 @@
           <div class="about__slider">
             <ul class="about__slider-list">
               <li class="about__slider-item">
-                <img src="/Library-BPL/image/image 1.png" alt="" />
+                <img src=./assets/image/image1.png alt="" />
               </li>
               <li class="about__slider-item">
-                <img src="/Library-BPL/image/image 2.png" alt="" />
+                <img src="./assets/image/image2.png" alt="" />
               </li>
               <li class="about__slider-item">
-                <img src="/Library-BPL/image/image 3.png" alt="" />
+                <img src="./assets/image/image3.png" alt="" />
               </li>
             </ul>
             <div class="about__slider-controls">
@@ -111,27 +80,27 @@
       <section class="favorites">
         <div class="favorites__container container">
           <h2 class="favorites__title section__title">Favorites</h2>
-          <p class="favorites__line section__line"></p>
           <div class="container__items">
             <h3 class="favorites__text">Pick favorites of season</h3>
-
-            <div class="favorites__list">
-              <label class="favorites__tabs">
-                <input type="radio" />
-                <span class="favorites__name">Winter</span>
-              </label>
-              <label class="favorites__tabs">
-                <input type="radio" />
-                <span class="favorites__name">Spring </span>
-              </label>
-              <label class="favorites__tabs">
-                <input class="favorites__radio" type="radio" />
-                <span class="favorites__name">Summer</span>
-              </label>
-              <label class="favorites__tabs">
-                <input type="radio" />
-                <span class="favorites__name">Autumn</span>
-              </label>
+            <div class="favorites__tabs">
+              <ul class="tabs__header">
+                <li class="tabs__item">
+                  <input type="radio" id="winter">
+                  <label class="tabs__label" for="winter">Winter</label>
+                </li>
+                <li class="tabs__item">
+                  <input type="radio" id="spring">
+                  <label class="tabs__label" for="spring">Spring</label>
+                </li>
+                <li class="tabs__item">
+                  <input type="radio" id="summer">
+                  <label class="tabs__label" for="summer">Summer</label>
+                </li>
+                <li class="tabs__item">
+                  <input type="radio" id="autumn">
+                  <label class="tabs__label" for="autumn">Autumn</label>
+                </li>
+              </ul>
             </div>
 
             <div class="favorites__books">
@@ -140,7 +109,6 @@
                   <li class="list__books">
                     <h3 class="books__title">Staff Picks</h3>
                   </li>
-                  <p class="books__line"></p>
                   <h4 class="book__title">The Book Eaters</h4>
                   <h4 class="book__author">By Sunyi Dean</h4>
                   <p class="book__text">
@@ -153,7 +121,7 @@
                   <button class="books__buy">BUY</button>
                   <img
                     class="book__img"
-                    src="/Library-BPL/image/book.png"
+                    src="./assets/image/book.png"
                     alt="#"
                   />
                 </ul>
@@ -175,7 +143,7 @@
                   <button class="books__buy">BUY</button>
                   <img
                     class="book__img"
-                    src="/Library-BPL/image/book (1).png"
+                    src="./assets/image/book1.png"
                     alt="#"
                   />
                 </ul>
@@ -199,7 +167,7 @@
                   <button class="books__buy">BUY</button>
                   <img
                     class="book__img"
-                    src="/Library-BPL/image/book (2).png"
+                    src="./assets/image/book2.png"
                     alt="#"
                   />
                 </ul>
@@ -220,7 +188,7 @@
                   <button class="books__buy">BUY</button>
                   <img
                     class="book__img"
-                    src="/Library-BPL/image/book (3).png"
+                    src="./assets/image/book3.png"
                     alt="#"
                   />
                 </ul>
@@ -245,60 +213,60 @@
             <table>
               <caption class="menu__title">Coffee & Tea</caption>
               <thead>
-                <tr class="menu__category">
-                  <td class="menu__item">Cold Brew Coffee</td>
-                  <td class="menu__line">$3</td>
-                </tr>
-                <tr class="menu__category">
-                  <td class="menu__item">French Press Pot</td>
-                  <td class="menu__line">$5</td>
-                </tr>
-                <tr class="menu__category">
-                  <td class="menu__item">Espresso</td>
-                  <td class="menu__line">$2</td>
-                </tr>
-                <tr class="menu__category">
-                  <td class="menu__item">Cappuccino</td>
-                  <td class="menu__line">$4</td>
-                </tr>
-                <tr class="menu__category">
-                  <td class="menu__item">Hot tea</td>
-                  <td class="menu__line">$2</td>
-                </tr>
-                <tr class="menu__category">
-                  <td class="menu__item">Cold tea</td>
-                  <td class="menu__line">$2</td>
-                </tr>
+              <tr class="menu__category">
+                <td class="menu__item">Cold Brew Coffee</td>
+                <td class="menu__line">$3</td>
+              </tr>
+              <tr class="menu__category">
+                <td class="menu__item">French Press Pot</td>
+                <td class="menu__line">$5</td>
+              </tr>
+              <tr class="menu__category">
+                <td class="menu__item">Espresso</td>
+                <td class="menu__line">$2</td>
+              </tr>
+              <tr class="menu__category">
+                <td class="menu__item">Cappuccino</td>
+                <td class="menu__line">$4</td>
+              </tr>
+              <tr class="menu__category">
+                <td class="menu__item">Hot tea</td>
+                <td class="menu__line">$2</td>
+              </tr>
+              <tr class="menu__category">
+                <td class="menu__item">Cold tea</td>
+                <td class="menu__line">$2</td>
+              </tr>
               </thead>
             </table>
 
             <table>
-              <caption class="menu__title">Coffee & Tea</caption>
+              <caption class="menu__right">Desserts & Cakes</caption>
               <thead>
-                <tr class="menu__category">
-                  <td class="menu__item">Cold Brew Coffee</td>
-                  <td class="menu__line">$3</td>
-                </tr>
-                <tr class="menu__category">
-                  <td class="menu__item">French Press Pot</td>
-                  <td class="menu__line">$5</td>
-                </tr>
-                <tr class="menu__category">
-                  <td class="menu__item">Espresso</td>
-                  <td class="menu__line">$2</td>
-                </tr>
-                <tr class="menu__category">
-                  <td class="menu__item">Cappuccino</td>
-                  <td class="menu__line">$4</td>
-                </tr>
-                <tr class="menu__category">
-                  <td class="menu__item">Hot tea</td>
-                  <td class="menu__line">$2</td>
-                </tr>
-                <tr class="menu__category">
-                  <td class="menu__item">Cold tea</td>
-                  <td class="menu__line">$2</td>
-                </tr>
+              <tr class="menu__category-right">
+                <td class="menu__item">Forest Gateau</td>
+                <td class="menu__line">$16</td>
+              </tr>
+              <tr class="menu__category-right">
+                <td class="menu__item">Blue Moon</td>
+                <td class="menu__line">$16</td>
+              </tr>
+              <tr class="menu__category-right">
+                <td class="menu__item">Truffle Cake</td>
+                <td class="menu__line">$15</td>
+              </tr>
+              <tr class="menu__category-right">
+                <td class="menu__item">Chocolate Cake</td>
+                <td class="menu__line">$18</td>
+              </tr>
+              <tr class="menu__category-right">
+                <td class="menu__item">Poet's Dream Cake</td>
+                <td class="menu__line">$16</td>
+              </tr>
+              <tr class="menu__category-right">
+                <td class="menu__item">Pineapple Cake</td>
+                <td class="menu__line">$14</td>
+              </tr>
               </thead>
             </table>
           </div>
